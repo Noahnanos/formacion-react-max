@@ -1,0 +1,8 @@
+.main{
+    width: 80vw;
+    height: calc( 100vh - 25vh );
+    background-color: khaki;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
