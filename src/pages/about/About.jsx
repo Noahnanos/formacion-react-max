@@ -1,6 +1,8 @@
 import {Header} from '../../header/Header';
 import {Navbar} from '../../navbar/Navbar';
 import { Main } from '../../main/Main';
+import { Aside} from '../../aside/Aside';
+import {Footer} from '../../footer/Footer';
 
 
 export const About = () => {
@@ -8,7 +10,11 @@ export const About = () => {
     <div>
         <Header title="About" color="red"/>
         <Navbar />
-        <Main text="Página About"/>
+        <div className="d-flex flex-row">
+          <Main text="Página About"/>
+          <Aside />
+        </div>
+        <Footer />
        
     </div>
   )
