@@ -1,12 +1,13 @@
 import {Header} from '../../header/Header'
 import {Navbar} from '../../navbar/Navbar';
+import { Main } from '../../main/Main';
 
 export const Contact = () => {
   return (
     <div>
-        <Header title="Contacto"/>
+        <Header title="Contacto" color="green"/>
         <Navbar />
-        <h1>Pagina Contact</h1>
+        <Main text="Página Contact"/>
     </div>
   )
 }

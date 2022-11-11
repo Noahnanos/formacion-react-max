@@ -9,11 +9,11 @@ import './Home.css';
 export const Home = () => {
   return (
     <div className="home">
-        <Header title="Home"/>
+        <Header title="Home" color="blue"/>
         <Navbar />
         <div className="d-flex flex-row">
+          <Main text="Página Main"/>
           <Aside />
-          <Main />
         </div>
         <Footer />
     </div>

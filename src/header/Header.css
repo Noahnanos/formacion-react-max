@@ -1,7 +1,23 @@
-.header{
+.red{
     width: 100vw;
     height: 10vh;
-    background-color: skyblue;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.blue{
+    width: 100vw;
+    height: 10vh;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.green{
+    width: 100vw;
+    height: 10vh;
+    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
